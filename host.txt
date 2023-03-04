@@ -1,0 +1,28 @@
+
+서버용컴퓨터(온???) 사서 서버를 돌리는 방법도 있다
+
+호스팅이란?
+
+    서버(컴퓨터)를 전체 혹은 일부를 임대하여 사용하는 것
+
+1. DotHome (3개월 정도 무료)
+    
+    https://www.dothome.co.kr/?gclid=Cj0KCQiA0oagBhDHARIsAI-BbgdPTPPtop3WAcWqbWHkrNQnl_WpAztf2xRdaLHA1Yc7LVrC9FU5qecaAo-aEALw_wcB
+
+    상단 메뉴 웹호스팅 - 무료 호스팅- 무료 호스팅 생성 - 마이닷홈 - 도메인으로 접속 - 잘나오는지 확인
+    
+   
+   FTP (주의: 첫번째 들어가는 웹페이지 이름이 index.html로 나오도록)
+
+    https://filezilla-project.org/
+
+    파일을 전송할 수 있는 무료 서비스
+
+
+2. Github pages
+
+        entry file = index.html
+        
+
+전통적인 프론트엔드 프레임워크 배포 방식이냐하면 아니다
+

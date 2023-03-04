@@ -1,0 +1,305 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(./Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/jw1.jpeg);
+    background-size: cover;
+    font-family: Montserrat;
+    box-shadow: 700px 0px 800px rgba(0, 0, 0, 0.65) inset;
+}
+
+main {
+    position: relative;
+}
+
+/* 헤더 시작 */
+
+.container1 {
+    display: flex;
+}
+
+.menu1{
+    list-style: none;
+    margin-top: 30px;
+    margin-left: 85px;
+    display: flex;
+}
+
+.menu1 a {
+    text-decoration: none;
+    font-weight: 580;
+    font-size: 0.87rem;
+}
+
+#HOME:hover {
+    color: red;
+}
+
+#CHARACTER:hover {
+    color: red;
+}
+
+#GALLERY:hover {
+    color: red;
+}
+
+#HOME {
+    letter-spacing: .15rem;
+    color: red;
+}
+
+#CHARACTER {
+    margin-left: 13px;
+    letter-spacing: .12rem;
+}
+
+#GALLERY {
+    margin-left: 13px;
+    letter-spacing: .12rem;
+}
+
+img[id="menu_icon"] {
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 61.5%;
+}
+
+#header_img_1 {
+    margin-top: 20px;
+    margin-left: 80px;
+    width: 38px;
+}
+
+/* 헤더 끝 */
+
+/* 메인 시작 */
+
+.container2 {
+    margin-top: 80px;
+    margin-left: 146px;
+    width: 550px;
+}
+
+main > div > img {
+    height: 94px;
+}
+
+main > div > h1 {
+    margin-top: 28px;
+    font-size: 1.35rem;
+    font-weight: 300;
+    letter-spacing: .03rem;
+}
+
+main > div > p {
+    font-size: 0.65rem;
+    font-weight: 100;
+    margin-top: 20px;
+}
+
+main > div > ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: .77rem;
+    width: 490px;
+    margin-top: 40px;
+    font-weight: 100;
+}
+
+main > div > ul > li {
+    word-spacing: .19rem;
+}
+
+main > div > ul > li > strong {
+    font-weight: 500;
+    letter-spacing: .058rem;
+}
+
+button {
+    margin-top: 80px;
+    background-color: transparent;
+    border: .98px solid white;
+    width: 148px;
+    height: 39px;
+    border-radius: 19px;
+    font-size: .78rem;
+}
+
+#button1 {
+    font-weight: 100;
+}
+
+#button1:hover {
+    background-color: white;
+    color: black;
+    font-weight: 600;
+}
+
+#button2:hover {
+    background-color: white;
+    color: black;
+    font-weight: 600;
+}
+
+#button2 {
+    margin-left: 10px;
+    font-weight: 100;
+}
+
+p#spin {
+    display: flex;
+    display: inline-block;
+    transform: rotate(-90deg);
+    font-size: .9rem;
+    font-weight: 600;
+    position: absolute;
+    left: 89.7%;
+    bottom: 40%
+}
+
+@keyframes loop{
+    0% {
+        left: 0px;
+    }
+
+    50% {
+        left: 14px;
+    }
+
+    100% {
+        left: 0px;
+    }
+}
+
+#pointicon {
+    height: 17px;
+    margin-left: 93%;
+    position: absolute;
+    bottom: 39.5%;
+    animation: loop 1s infinite;
+}
+
+
+/* 메인 끝 */
+
+/* 푸터 시작 */
+
+footer {
+    height: 9vh;
+    margin-left: 80px;
+    margin-top: 10%;
+}
+
+#y_icon {
+    margin-left: 2.5%;
+}
+
+#t_icon {
+    margin-left: 2.5%;
+}
+
+
+
+/* 푸터 끝 */
+
+/* 미디어 쿼리 */
+
+@media screen and (max-width: 768px) {
+    .menu1 a {
+        margin-left: 46px;
+        width: auto;
+    }
+
+    img[id="menu_icon"] {
+        position: relative;
+        right: 41%;
+        width: auto;
+    }
+
+    body {
+        position: relative;
+        right: 18px;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .menu1 a {
+        display: flex;
+        margin-left: 0;
+        width: auto;
+    }
+
+    .menu1 {
+        position: absolute;
+        left: 13%;
+    }
+
+    img[id="menu_icon"] {
+        position: absolute;
+        top: 1.5%;
+        right: 2%;
+        width: auto;
+    }
+
+    #header_img_1 {
+        position: absolute;
+        right: 83%;
+    }
+
+    body {
+        position: relative;
+        right: 18px;
+        width: auto;
+    }
+
+    .container2 {
+        margin-top: 20%;
+        margin-left: 8%;
+        
+    }
+
+    main > div > h1 {
+        display: flex;
+    }
+
+    main > div > p {
+        width: 460px;
+    }
+
+    main > div > ul > li {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    button {
+        margin-top: 20%;
+        margin-left: 12%;
+        margin-bottom: 14%;
+    }
+
+    footer {
+        margin-left: 8%;
+    }
+
+    p#spin {
+        position: absolute;
+        left: 55%;
+        bottom: 79.2%;
+        font-size: .7rem;
+    } 
+}
