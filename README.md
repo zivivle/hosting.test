@@ -11,7 +11,7 @@
 - 모르겠습니다.
 
 ## 배포 링트
-<a href="https://zivivle.github.io/hosting.test/"></a>
+<a href="https://zivivle.github.io/hosting.test/">링크</a>
 
 ## 팀원
 
